@@ -64,7 +64,7 @@ header nav ul li:hover{
     height: 90vh;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: auto 100%;
 }
 
 .container .filter{
@@ -168,13 +168,13 @@ header nav ul li:hover{
 }
 
 .container-main .row .col-30 p{
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     color: #020202;
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    font-weight: 300;
+    font-weight: 400;
     padding: 5px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.822);
 }
 
 /* fin container main */
@@ -250,4 +250,86 @@ footer .row .col-30:nth-child(3) h2{
     font-size: 1.1rem;
 }
 
-/* fin Footer */
+/* fin footer */
+
+/* Medidas queries*/
+
+@media (max-width: 1080px){
+    header nav ul li{
+        font-size: 1.4em;
+    }
+
+    .container{
+        background-size: 100% auto;
+    }
+}
+
+@media (max-width: 768px){
+    footer .row{
+        flex-direction: column;
+    }
+    
+    footer .row .col-30{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    footer .row .col-30:nth-child(1) ol li{
+        text-align: center;
+    }
+
+    footer .row .col-30:nth-child(2) ol li{
+        text-align: center;
+    }
+
+    footer .row .col-30:nth-child(2) h2{
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 480px){
+    header nav ul li{
+        font-size: 1.2em
+    }
+
+    .container{
+        background-size: 100% auto;
+        height: 270px;
+    }
+
+    .container .filter{
+        height: 270px;
+    }
+
+    .container .filter .col60{
+        width: 90%;
+        margin-left: 2px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .container .filter .col60 h2{
+        font-size: 1.5em;
+        text-align: center;
+    }
+    
+    .container .filter .col60 p{
+        font-size: 1em;
+        text-align: center;
+       
+    }
+    
+    .container .filter .col60 button{
+        width: 160px;
+       margin: 0 auto;
+    }
+
+    .container-main .row{
+        flex-direction: column;
+    
+    }
+    
+
+}
