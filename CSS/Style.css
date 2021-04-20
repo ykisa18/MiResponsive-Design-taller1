@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    min-width: 480px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+main{
+    margin: 0px;
+    padding: 0px;
+    min-width: 480px;
+    max-width: 2850px;
+}
+
+/* Encabezado de página y barra de navegación */
+
+header{
+    width: 100%;
+    height: 10vh;
+    min-width: 480px;
+}
+
+header nav{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(182, 133, 228);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 480px;
+}
+
+header nav ul{
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 0px;
+}
+
+header nav ul li{
+    list-style: none;
+    padding: 5px 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    color: azure;
+}
+
+header nav ul li:hover{
+    background-color: rgb(176, 130, 219);
+    cursor: pointer;
+}
+
+/* Fin encabezado página y barra de navegación */
+
+/* Banner */
+
+.container{
+    background-image: url(https://s1.1zoom.me/big0/911/Lipstick_powder_Gray_background_Makeup_Paintbrush_565009_1280x853.jpg);
+    width: 100%;
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.container .filter{
+    width: 100%;
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.container .filter .col60{
+    width: 60%;
+    margin-left: 100px;
+}
+
+.container .filter .col60 h2{
+    font-size: 2.8rem;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.container .filter .col60 p{
+    font-size: 1.4rem;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.container .filter .col60 button{
+    width: 30%;
+    padding: 5px 10px;
+    background-color: rgb(188, 154, 221);
+    color: azure;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer
+}
+
+/* Fin banner */
+
+/* Container main */
+
+.container-main{
+    width: 100%;
+}
+
+.container-main .row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.container-main .row .col-30{
+    width: 18em;
+    height: 22em;
+    margin: 20px;
+    background-color:plum;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-main .row .col-30:nth-child(1){
+    background-image: url(https://ae01.alicdn.com/kf/H901cd21b9c014a0f8983449f81952c14E/Sombra-maquillaje-9-colores-sombra-de-ojos-mate-polvo-prensado-Natural-larga-duraci-n-profesional-sombra.jpg_q50.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.container-main .row .col-30:nth-child(2){
+    background-image: url(https://cdn.shopify.com/s/files/1/0245/3687/5088/products/Capturadepantalla2021-03-30ala_s_1.30.03p.m._1400x.png?v=1617134707);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.container-main .row .col-30:nth-child(3){
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkID1JFY4-TzT3iT79OZsdDq9JYo9OhGHC7w&usqp=CAU);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.container-main .row .col-30 h2{
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 1.4rem;
+    color: azure;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 100;
+}
+
+.container-main .row .col-30 p{
+    font-size: 1.4rem;
+    color: #020202;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* fin container main */
+
+/* Footer */
+
+footer{
+    width: 100%;
+    height: 50vh;
+}
+
+footer .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:pink;
+}
+
+/* COLUMNA 1 */
+footer .row .col-30:nth-child(1){
+    width: 16em;
+}
+
+footer .row .col-30:nth-child(1) ol{
+    width: 100%;
+    padding-left: 0px;
+}
+
+footer .row .col-30:nth-child(1) ol li{
+    list-style: none;
+    color: #020202;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px 10px;
+}
+
+footer .row .col-30:nth-child(1) ol li:hover{
+    color: rgb(176, 130, 219);
+    cursor: pointer;
+}
+
+/* COLUMNA 2 */
+
+footer .row .col-30:nth-child(2){
+    width: 16em;
+}
+
+footer .row .col-30:nth-child(2) ol{
+    width: 100%;
+    padding-left: 0px;
+}
+
+footer .row .col-30:nth-child(2) ol li{
+    list-style: none;
+    color: #020202;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px 10px;
+}
+
+footer .row .col-30:nth-child(2) ol li:hover{
+    color: rgb(176, 130, 219);
+    cursor: pointer;
+}
+
+
+footer .row .col-30:nth-child(3){
+    width: 18em;
+}
+
+footer .row .col-30:nth-child(3) h2{
+    color: #020202;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px 10px;
+    font-size: 1.1rem;
+}
+
+/* fin Footer */
